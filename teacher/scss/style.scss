@@ -79,6 +79,19 @@ header {
   top: 0;
   left: 0;
 
+  @media (max-width: 990px) {
+    & {
+      right: 0;
+      width: 150px;
+      left: auto;
+
+      .center {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+
   nav {
     width: 100%;
 
